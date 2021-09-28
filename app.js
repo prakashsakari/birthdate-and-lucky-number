@@ -18,9 +18,9 @@ function checkIfLucky(){
     number = luckyNumber.value;
     if (sum&&number){
         if (sum % number === 0){
-            showMessage("Your birthdate is lucky");
+            showMessage("Yeaahh!! Your birthdate is lucky😍");
         }else{
-            showMessage("Your birthdate is not lucky");
+            showMessage("Ooops!! Your birthdate is not lucky. But your are amazing🤗");
         }
     }else{
         showMessage("Kindly enter both the fields");
